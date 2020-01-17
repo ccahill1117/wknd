@@ -429,20 +429,6 @@
                                 </execution>
                             </executions>
                         </plugin>
-                        <plugin>
-                            <groupId>org.apache.felix</groupId>
-                            <artifactId>maven-scr-plugin</artifactId>
-                            <version>1.26.0</version>
-                            <executions>
-                                <execution>
-                                    <id>generate-scr-scrdescriptor</id>
-                                    <phase>compile</phase>
-                                    <goals>
-                                        <goal>scr</goal>
-                                    </goals>
-                                </execution>
-                            </executions>
-                        </plugin>
                     </plugins>
                 </pluginManagement>
             </build>
@@ -483,6 +469,20 @@
                                 </execution>
                             </executions>
                         </plugin>
+                        <plugin>
+					        <groupId>org.apache.felix</groupId>
+					        <artifactId>maven-scr-plugin</artifactId>
+					        <version>1.26.0</version>
+					        <executions>
+					            <execution>
+					                <id>generate-scr-scrdescriptor</id>
+					                <phase>compile</phase>
+					                <goals>
+					                    <goal>scr</goal>
+					                </goals>
+					            </execution>
+					        </executions>
+					    </plugin>  
                     </plugins>
                 </pluginManagement>
             </build>
@@ -609,10 +609,10 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>org.apache.felix.scr.annotations</artifactId>
-                <version>1.12.0</version>
-            </dependency>
+			    <groupId>org.apache.felix</groupId>
+			    <artifactId>org.apache.felix.scr.annotations</artifactId>
+			    <version>1.12.0</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 
