@@ -23,12 +23,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2018-11-15T09:33:13.233-05:00"
+                        jcr:lastModified="{Date}2020-01-07T17:07:50.617-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,/apps/wknd/components/form/container,group:WKND.Structure]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.content,/apps/wknd/components/form/container,group:WKND.Structure]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -45,8 +45,8 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
-                    <policy_5059349846433
-                        jcr:lastModified="{Date}2018-11-15T09:38:04.278-05:00"
+                    <policy_130860102566509
+                        jcr:lastModified="{Date}2020-01-16T18:06:29.819-08:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -55,7 +55,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                                <mapping_1542292539295
+                                <mapping_1578445852897
                                     jcr:primaryType="nt:unstructured"
                                     assetGroup="media"
                                     assetMimetype="image/*"
@@ -63,7 +63,7 @@
                                     resourceType="wknd/components/content/image"/>
                             </assetToComponentMapping>
                         </cq:authoring>
-                    </policy_5059349846433>
+                    </policy_130860102566509>
                 </responsivegrid>
             </components>
         </foundation>
