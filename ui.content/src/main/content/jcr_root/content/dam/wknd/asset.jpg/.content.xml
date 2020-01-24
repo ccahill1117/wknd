@@ -3,20 +3,20 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="195334c0-00da-4f68-8767-ab6055bf801a">
+    jcr:uuid="4a5606a7-7a77-4b08-9f56-8598f87487b7">
     <jcr:content
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/wknd"
         dam:assetState="processed"
         dam:relativePath="wknd/asset.jpg"
-        jcr:lastModified="{Date}2018-10-25T15:49:55.064-04:00"
+        jcr:lastModified="{Date}2020-01-20T20:18:02.839-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2018-10-25T15:49:54.971-04:00"
+            dam:extracted="{Date}2015-01-01T00:00:00.000Z"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
@@ -28,8 +28,8 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}13.05555534362793"
             dam:Progressive="yes"
-            dam:sha1="48dbc3ccc5fc37d89d176df78c923120f0ff9d39"
-            dam:size="{Long}71730"
+            dam:sha1="94a39eecb6c8d903563623729f90ea969aa91d4c"
+            dam:size="{Long}71150"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-25T15:49:52.802-04:00"
             exif:ColorSpace="{Long}65535"
@@ -43,6 +43,8 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
             tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}51"
             tiff:ImageWidth="{Long}940"

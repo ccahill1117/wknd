@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="8d530f0c-0ca2-42e9-90d7-41bdfd96d0eb">
+    jcr:uuid="3f472a66-f4c6-46a7-aba2-884ad31cf7a6">
     <jcr:content
+        cq:name="skateboard-hero.jpg"
+        cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/skateboard-hero.jpg"
-        jcr:lastModified="{Date}2018-11-09T13:06:57.229-05:00"
+        jcr:created="{Date}2020-01-20T20:17:35.110-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.755-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,8 +29,11 @@
             dam:sha1="55cf20b674feda7342946f76bb1e6dd553c8de5d"
             dam:size="{Long}819407"
             dc:format="image/jpeg"
+            dc:modified="{Date}2020-01-20T20:18:03.610-08:00"
             exif:PixelXDimension="{Long}1366"
             exif:PixelYDimension="{Long}800"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.610-08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}800"

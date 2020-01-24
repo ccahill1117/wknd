@@ -3,13 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="eaad1fe1-7d0a-4548-a447-be50b070078a">
+    jcr:uuid="0dcc148b-0cbd-4093-a338-f60e11ea8d15">
     <jcr:content
         cq:name="article_01_picture_01.png"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/article_01_picture_01.png"
-        jcr:lastModified="{Date}2018-11-01T21:13:54.937-04:00"
+        jcr:created="{Date}2020-01-20T20:17:34.751-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.500-08:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -32,7 +34,7 @@
             dc:format="image/png"
             dc:modified="{Date}2017-05-30T12:19:27.334-04:00"
             dc:title="skate park bowl"
-            jcr:lastModified="{Date}2018-11-01T21:13:52.184-04:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.068-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

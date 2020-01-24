@@ -3,13 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="49fde353-5320-47c2-8cca-bd3dc6aff371">
+    jcr:uuid="af067a4a-1b55-4db4-bd8c-e58a86d9a368">
     <jcr:content
         cq:name="whiteflowers.jpg"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/whiteflowers.jpg"
-        jcr:lastModified="{Date}2018-11-01T21:13:55.184-04:00"
+        jcr:created="{Date}2020-01-20T20:17:35.186-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.365-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,14 +26,14 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.66666603088379"
             dam:Progressive="no"
-            dam:sha1="47a253b1eaa2a80d77e85c8ba15e56a39404814a"
+            dam:sha1="8bc0dce05f641e73783c9a86cebc9cd9e5057799"
             dam:size="{Long}138254"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:42.447-05:00"
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}1200"
             exif:PixelYDimension="{Long}1200"
-            jcr:lastModified="{Date}2018-11-01T21:13:55.132-04:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.785-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

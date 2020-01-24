@@ -3,13 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="917dddfb-84b4-4753-a77d-3862b81fe8ee">
+    jcr:uuid="32c08f61-6983-4b0d-a32d-9a56ee428ed1">
     <jcr:content
         cq:name="roi-dimor-388002.jpg"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/roi-dimor-388002.jpg"
-        jcr:lastModified="{Date}2018-11-07T08:06:08.266-07:00"
+        jcr:created="{Date}2020-01-20T20:17:35.068-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.591-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -31,7 +33,7 @@
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}1200"
             exif:PixelYDimension="{Long}675"
-            jcr:lastModified="{Date}2018-11-07T08:06:05.287-07:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.543-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

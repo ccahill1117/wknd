@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="2bed7327-7d2c-471c-9821-e648e9e79bfe">
+    jcr:uuid="a6ec4334-b362-4d74-a5a2-a2079e1fdd0d">
     <jcr:content
+        cq:name="min-car.jpg"
+        cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/min-car.jpg"
-        jcr:lastModified="{Date}2018-11-11T22:35:15.527-05:00"
+        jcr:created="{Date}2020-01-20T20:17:34.829-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.646-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,8 +29,11 @@
             dam:sha1="ec7a7637b93624acc0f9fa28af9d56aa57dd0e75"
             dam:size="{Long}536929"
             dc:format="image/jpeg"
+            dc:modified="{Date}2020-01-20T20:18:03.216-08:00"
             exif:PixelXDimension="{Long}1366"
             exif:PixelYDimension="{Long}768"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.216-08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}768"

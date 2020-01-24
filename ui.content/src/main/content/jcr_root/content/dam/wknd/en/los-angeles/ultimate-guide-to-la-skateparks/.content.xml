@@ -3,15 +3,17 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="4e730c5a-b02b-4073-b9e6-e4c94f8f9aad">
+    jcr:uuid="b4bc4236-c00f-436d-adf9-f2be4368e96e">
     <jcr:content
         cq:name="ultimate-guide-to-la-skateparks"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         cq:versionCreator="admin"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/ultimate-guide-to-la-skateparks"
+        jcr:created="{Date}2020-01-20T20:17:35.148-08:00"
+        jcr:createdBy="admin"
         jcr:description="The article body for the Ultimate Guide to LA Skateparks"
-        jcr:lastModified="{Date}2018-11-13T17:09:24.637-05:00"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.423-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Ultimate Guide to LA Skateparks"
@@ -28,7 +30,7 @@
             dam:size="{Long}3364"
             dc:format="text/html"
             dc:modified="{Date}2017-06-13T14:28:03.403-04:00"
-            jcr:lastModified="{Date}2018-11-01T21:13:54.998-04:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.708-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

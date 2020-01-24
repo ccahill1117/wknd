@@ -3,13 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="331d94b9-3bea-4b81-b258-80ab11a39a98">
+    jcr:uuid="54ce03bc-c9fc-4b8e-9510-be7d42ea1707">
     <jcr:content
         cq:name="article_01_hero.png"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/article_01_hero.png"
-        jcr:lastModified="{Date}2018-11-01T21:13:53.632-04:00"
+        jcr:created="{Date}2020-01-20T20:17:34.702-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.379-08:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
@@ -26,13 +28,13 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.184242248535156"
             dam:Progressive="no"
-            dam:sha1="68c0ac4ea48c074affe5b6f854adf83e9bba8397"
+            dam:sha1="72d48bdc91b9086e4ca4134e980e27ce049d91ae"
             dam:size="{Long}943144"
             dc:description="hero image for Skate park"
             dc:format="image/png"
             dc:modified="{Date}2017-05-30T12:17:01.799-04:00"
             dc:title="Skate Park LA"
-            jcr:lastModified="{Date}2018-11-01T21:13:53.566-04:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:02.996-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -3,13 +3,15 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="05ed4ac7-ef95-4edd-9f8b-be4594ff3a62">
+    jcr:uuid="a185e3e6-191a-4d75-ac4c-c597073ff444">
     <jcr:content
         cq:name="robson-hatsukami-morgan-280159.jpg"
         cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/robson-hatsukami-morgan-280159.jpg"
-        jcr:lastModified="{Date}2018-11-01T21:13:55.509-04:00"
+        jcr:created="{Date}2020-01-20T20:17:35.017-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.342-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +30,7 @@
             dam:size="{Long}929028"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-02-04T13:44:40.049-05:00"
-            jcr:lastModified="{Date}2018-11-01T21:13:54.798-04:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.460-08:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

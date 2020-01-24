@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="813bae20-8ada-4060-8803-235d5b9822a9">
+    jcr:uuid="60adbd72-ce31-4c64-855f-02b671799cb5">
     <jcr:content
+        cq:name="roaster-image.jpeg"
+        cq:parentPath="/content/dam/wknd/en/los-angeles"
         dam:assetState="processed"
         dam:relativePath="wknd/en/los-angeles/roaster-image.jpeg"
-        jcr:lastModified="{Date}2018-11-07T10:29:24.193-07:00"
+        jcr:created="{Date}2020-01-20T20:17:34.941-08:00"
+        jcr:createdBy="admin"
+        jcr:lastModified="{Date}2020-01-20T20:18:22.435-08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -21,6 +26,9 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
             dc:format="image/jpeg"
+            dc:modified="{Date}2020-01-20T20:18:03.371-08:00"
+            jcr:lastModified="{Date}2020-01-20T20:18:03.370-08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}675"
